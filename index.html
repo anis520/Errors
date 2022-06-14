@@ -11,17 +11,18 @@
 </head>
 <body>
      
+        <img  class="goro" src="./img/loding.gif" alt="">
 
-         <div class="container my-5">
+        <div class="container mdiv my-5">
                
-              <div class="row">
-                                <div class="col">
-
-
-                                  <div class="card shadow">
+              <div class="row ">
+                      <div class=" col">
+                              
+                              
+                              <div class="card shadow">
                                       <div class="card-body">
-                                             <h3>Add new student</h3>
-                                             <hr>
+                                              <h3>Add new student</h3>
+                                              <hr>
                                              <div class="msg"></div>
                                              <form id="student_form" action="">
 
@@ -35,6 +36,7 @@
                                                    <div class="my-3">
                                                            <label for="">Email</label>
                                                            <input name="email" type="text" class="form-control">
+                                                           <span id="email_validation"></span>
                                                    </div>
 
 
@@ -42,6 +44,7 @@
                                                    <div class="my-3">
                                                            <label for="">Cell</label>
                                                            <input name="cell" type="text" class="form-control">
+                                                           <span id="cell_validation"></span>
                                                    </div>
 
 
@@ -72,10 +75,9 @@
 
 
 
-                                                       <div class="dd">
+                                                
 
-                                                               <img src="./img/loding.gif" alt="">
-                                                       </div>
+                                                    
 
                                              </form>
 

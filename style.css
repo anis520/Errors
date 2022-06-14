@@ -1,4 +1,20 @@
-.logg{
-    height: 250px;
-    width: 250px;
+.goro{
+    text-align: center;
+    border-radius:50%;
+    object-fit: cover;
+    margin: auto;
+    height: 200px;
+    width: 200px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    position: fixed;
+    display: none;
+    }
+body{
+/* background-image:url(./img/student-login.jpg); */
+
+   
 }
+
